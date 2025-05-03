@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+/* typography */ 
+
+body {
+    font-family: "Source Sans 3", sans-serif;
+}
+
+/* layout */ 
+
+.main-container {   
+    flex-direction: column;
+    display: flex; 
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    justify-content: space-between;
+    margin: 1em 1em;
+}
+.post-info {
+    display: flex;
+    flex-direction: row;
+    margin: 2em 1em;
+}
+
+.post-info .post-owner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 16px;
+}
+
+
+.post-buttons {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    gap: 2em;
+}
+.post-buttons img {
+    height: 5vh;
+    width: auto; 
+ }
+
+.likes{
+    font-weight: 800;
+    margin-left: 1em  ;
+}
+.comments span{
+    font-weight: 800;
+    margin-left: 1em;
+    padding-bottom: 3em;
+}
+
+/* styling elements */ 
+.post-img {
+    height: 10vh;
+    width: auto;
+    border-radius: 50%;
+ }
+
+.post-owner .post-owner-name {
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+ .img img {
+    width: 100vw;
+    height: auto;
+ } 
+
+ .user-avatar{
+    border-radius: 50%;
+ } 
+ 
